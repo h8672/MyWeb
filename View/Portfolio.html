@@ -37,7 +37,10 @@
 		<a href="#html">HTML</a>
 		<a href="#unity">C# - Unity3D</a>
 		<a href="#android">Android</a>
-		<a href="#contact">Contact me!</a>
+		<a href="#contact">
+			<span class="eng">Contact me!</span>
+			<span class="fin">Laita viestiä!</span>
+		</a>
 	</topics>
 
 	<hr>
@@ -82,8 +85,22 @@
 
 	<a href="https://github.com/h8672/Birdnest">Birdnest</a>,
 
-	<span class="fin">3D OpenGL moottori. </span>
-	<span class="eng">3D OpenGL engine. </span>
+	<span class="fin">
+	Osittainen 3D OpenGL moottori tehty https://learnopengl.com/ tutoriaalin pohjalta.
+	Lukee 3D malli tiedoston ja teksti fontit kirjastoja käyttäen.
+	Lukee yksinkertaisia shadereitä joilla annetaan värit modeleille ja sillä voi määrittää tekstille uudet värit.
+	Tein oman kamera systeemin joka toimi mielestäni hyvin 3D maailmassa, mutte en muista korjasinko siitä akselien lukkiutumisen euler kulmilla.
+	Haukkasin vähän liian ison palan, mutta opin paljon C++, OpenGL ja luokka rakenteita.
+	</span>
+
+	<span class="eng">
+	Partial 3D OpenGL engine made using tutorial in https://learnopengl.com/ 2016 spring.
+	Reads 3D model and text font styles information using libraries.
+	Reads simple shaders which give models a texture and you can use it to give text new colors.
+	Made own camera system that works quite well in 3D space, but I dont remember if I fixed the axel locks caused by euler angles.
+	Took a little too big bite, but learned a lot about C++, OpenGL and class interfaces.
+	Idea was to add enough methods to fly in 3D space with a bird model.
+	</span>
 
 	</p>
 
@@ -95,11 +112,12 @@
 
 	<p>
 
-	<a href="http://student.labranet.jamk.fi/~H8672/">Home page</a>
+	<span class="eng">
+	<a href="http://student.labranet.jamk.fi/~H8672/">Old Home page</a>
+	</span>
 
-	<span>
-	before it broke... follow this page more plz!
-	The old site is going to be out after graduating from JAMK.
+	<span class="fin">
+	<a href="http://student.labranet.jamk.fi/~H8672/">Vanha kotisivu</a>
 	</span>
 
 	</p>
@@ -110,14 +128,22 @@
 
 	<p>
 
-	<a href="https://github.com/Jamk-IT-Tuntikirjaus/Jamk-IT-Tuntikirjaus">Tuntikirjaus</a>
+	Esatime in <a href="https://gitlab.com/jamk-it-tuntikirjaus/esatime">Gitlab</a> and <a href="https://github.com/Jamk-IT-Tuntikirjaus/Jamk-IT-Tuntikirjaus">Github (old port)</a>.
 
-	<span>
-	Web app that might had a chance to replace the current class time management system at school.
+	<span class="eng">
+	Web app that might had a chance to replace the current class time management system at school with a more simple and better one.
 	It went to hold for some reason. We used webpack and made documents how to set the server up.
-	Consist of website (angular2), database (baasbox, mongodb).
+	Consist of website written in angular2 and Baasbox, backend project that combines authentication and OrientDB under one interface.
 	<br><br>
-	My focus was in the website and database. No image at the moment.
+	My focus was in the frontend and backend coding. No image at the moment.
+	</span>
+
+	<span class="fin">
+	Nettisivua suunniteltiin opettajille, jotka toivoivat parempaa ja yksinkertaisempaa käyttöliittymää tuntien aikojen kirjaukseen.
+	Nettisivun frontend (käyttäjän käyttöliittymä) tehtiin angular2 webpack pohjalta.
+	Tiedot tallennettiin Baasboxiin, joka on backend projekti joka yhdistää käyttäjän tunnistamisen ja OrientDB yhteen käyttöliittymään.
+	<br><br>
+	Projektissa keskityin käyttöliittymän ja baasboxin koodaukseen. Kuvaa ei ole tällä hetkellä.
 	</span>
 
 	</p>
@@ -130,15 +156,26 @@
 
 	<a href="https://github.com/JAMK-GameDev/game-development-project-2017-team-3-5">Fantasia Land</a>
 
-	<span>
-	Turnbased game in groupwork for class, acted as a group leader.
-	We honed the story, made most of the base utilities required for the game and you can test it.
+	<span class="eng">
+	Turnbased game in groupwork for a class using Git, Unity3D gameengine and Blender 3D sculpting tool.
+	We honed the story, even though it didn't make in the prototype as the game had many mechanics.
+	In prototype we made most of the base utilities required for the game and you can test it from link below.
+	<br><br>
+	I was a project leader in this project and focused to get the most important mechanics and some story to the prototype in time.
 	</span>
 
-	<br>
+	<span class="fin">
+	Vuoropohjainen peli, joka tehtiin pelintekokurssilla käyttäen Git, Unity3D pelimoottoria ja Blender 3D-mallinnus työkalulla.
+	Sen lisäksi viilattiin tarinaa paremmaksi, mutta sitä ei vielä tullut tähän prototyyppiin, koska se vaati liian monta erilaista peli mekaniikkaa.
+	Prototyypissä teimme suurimman osan tarvittavista toiminnoista ja sen voi testata alla olevasta linkistä.
+	<br><br>
+	Toimin projektin johtajana ja koetin saaha peliin tarvittavat toiminnot ja tarinaa prototyyppiin ajoissa.
+	</span>
 
-	<!--Link to WebGL build--><br>
+	<!--Link to WebGL build-->
+	<br><br>
 	<a href="http://student.labranet.jamk.fi/~H8672/Uutta/pelisuunnittelu/Game/WebGL/">WebGL build</a>
+
 
 	</p>
 
@@ -150,12 +187,22 @@
 
 	<a href="https://github.com/Replica94/moveometri">Moveometri</a>
 
-	<span>
-	Utilizes androids location and time and uses Google maps api to provide a trip timer.
+	<span class="eng">
+	A 3 man group project for Mobile Project course.
+	Application utilizes androids location and time and uses Google maps api to provide a trip timer.
 	When you have made trips, by logging in your new trips can be saved in an external database!
-	The server is coded in D language and uses Vibe.d library.
+	The server is coded in D language and uses Vibe.d library and it grants it REST API methods.
 	<br><br>
-	Group work of 3 people. I made the timer activity.
+	I made the timer activity, which includes coding for the times, locations and Google map API for the application.
+	</span>
+
+	<span class="fin">
+	3 hengen projekti Mobile Project kurssia varten.
+	Ohjelma käyttää Androidin omaa location systeemiä ja aikaa. Locationit piirretään Google service Maps APIa käyttäen kartalle.
+	Kun matkoja on tehty, ne voi siirtää ulkoiseen tietokantaan kirjautumisella.
+	Tietokannan toiminnot on koodattu D kielellä ja käyttää Vibe.d kirjastoa saadakseen REST API toiminnot.
+	<br><br>
+	Tein projektin ajastus aktiviteetin, eli koodasin ajan, sijainnin ja Googlen kartan APIn ohjelmaan.
 	</span>
 
 	</p>
@@ -166,7 +213,10 @@
 
 	<hr>
 
-<h1 id="contact">Contact me!</h1>
+<h1 id="contact">
+	<span class="eng">Contact me!</span>
+	<span class="fin">Laita viestiä!</span>
+</h1>
 
 	<p>
 	<a href="mailto:juhamk91@gmail.com">Gmail</a><br>
@@ -180,4 +230,3 @@
 </body>
 
 </html>
-
