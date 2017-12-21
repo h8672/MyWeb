@@ -7,9 +7,20 @@ html, body {
 
 /* Website background */
 body {
-	margin-left: 10px;
-	margin-bottom: 40%;
+	text-align: center;
 	background-color: gray;
+	margin-bottom: 40%;
+}
+
+/* Website centering */
+siteback {
+	display: block;
+	width: 60%;
+	min-width: 600px;
+	margin: auto;
+}
+siteback * {
+
 }
 
 /* Default language style */
@@ -79,4 +90,3 @@ img.rotate {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
