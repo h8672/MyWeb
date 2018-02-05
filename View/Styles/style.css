@@ -1,10 +1,12 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 
 .top {
     background-color: blue;
+    padding: 5px;
 }
 
 .nav {
@@ -26,17 +28,21 @@ html, body {
 }
 
 .main-title {
-    
+    color: lightgray;
 }
 
 .main-body {
     padding: 5px;
+    color: gray;
 }
 
 .news {
-    background-color: yellow;
+    background-color: darkorange;
     border: 1px solid black;
     border-radius: 12px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .news-title {
