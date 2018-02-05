@@ -1,3 +1,8 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .top {
     background-color: blue;
 }
@@ -7,7 +12,13 @@
 }
 
 .nav-item {
-    
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.nav-item:hover {
+    color: green;
 }
 
 .main {
@@ -19,13 +30,13 @@
 }
 
 .main-body {
-    
+    padding: 5px;
 }
 
 .news {
     background-color: yellow;
-    border: 1px dotted black;
-    border-radius: 12px:
+    border: 1px solid black;
+    border-radius: 12px;
 }
 
 .news-title {
