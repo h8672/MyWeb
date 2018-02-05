@@ -68,10 +68,10 @@ html, body {
 }
 
 .changes-item {
-    
+    padding-left: 5px;
 }
 
 .changes-item:first-child {
-    background-color: #888800; /*Around lightpurple?*/ 
+    background-color: #880088; /*Around lightpurple?*/ 
     color: white;
 }
