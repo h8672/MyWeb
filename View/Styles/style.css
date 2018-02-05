@@ -1,0 +1,59 @@
+.top {
+    background-color: blue;
+}
+
+.nav {
+    
+}
+
+.nav-item {
+    
+}
+
+.main {
+    background-color: green;
+}
+
+.main-title {
+    
+}
+
+.main-body {
+    
+}
+
+.news {
+    background-color: yellow;
+    border: 1px dotted black;
+    border-radius: 12px:
+}
+
+.news-title {
+    border-bottom: 1px solid black;
+}
+
+.news-body {
+    
+}
+
+.update .news-body:first-child {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    background-color: lime;
+}
+
+.changes {
+    
+}
+
+.changes-item {
+    
+}
+
+.changes-item:first-child {
+    background-color: purple;
+    color: white;
+}
