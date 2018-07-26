@@ -1,3 +1,3 @@
 npm stop
-git pull
+sudo git pull
 npm start
