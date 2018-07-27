@@ -1,6 +1,5 @@
-"-#-#-#---NewLogEntry---#-#-#-\n\n" >> restart-data.log
-echo "Pulling new stuff from git...\n"
 sudo git pull
-echo "\nGit is up-to-date!"
+echo "--- Git is up-to-date! ---"
+sudo chmod +x restart.sh
 
 
