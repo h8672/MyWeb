@@ -1,3 +1,6 @@
-npm stop
+"-#-#-#---NewLogEntry---#-#-#-\n\n" >> restart-data.log
+echo "Pulling new stuff from git..."
 sudo git pull
-npm start
+echo "Updating data"
+
+

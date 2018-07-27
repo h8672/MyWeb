@@ -1,0 +1,77 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.top {
+    background-color: blue;
+    padding: 5px;
+}
+
+.nav {
+    
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.nav-item:hover {
+    color: green;
+}
+
+.main {
+    background-color: green;
+}
+
+.main-title {
+    color: lightgray;
+}
+
+.main-body {
+    padding: 5px;
+    color: gray;
+}
+
+.news {
+    background-color: darkorange;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.news-title {
+    border-bottom: 1px solid black;
+}
+
+.news-body {
+    
+}
+
+.update :first-child {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    background-color: purple;
+    padding: 5px;
+}
+
+.changes {
+    border-bottom: 1px solid black;
+}
+
+.changes-item {
+    padding-left: 5px;
+}
+
+.changes-item:first-child {
+    background-color: #880088; /*Around lightpurple?*/ 
+    color: white;
+}

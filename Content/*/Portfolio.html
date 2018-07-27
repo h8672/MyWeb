@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset=utf-8>
+
+<link href="./Styles/portfolio.css" rel="stylesheet" type="text/css"/>
+<script src="./Scripts/portfolio.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+	<div class="languages">
+		<span onclick="mySwitch(this)">Language:</span>
+		<a onclick="myChange('eng')">English</a>
+		<a onclick="myChange('fin')">Finnish</a>
+	</div>
+
+<siteback>
+
+	<br><br>
+
+<h1>About</h1>
+
+	<p>
+
+	<span class="eng">Portfolio for different programming language projects</span>
+
+	<span class="fin">Portfolio eri ohjelmointi kielien projekteista</span>
+
+	</p>
+
+	<topics>
+		<!--Thanks Daniel DiPaolo for header links, didn't know it worked in html aswell as in markdown https://stackoverflow.com/questions/2835140/how-do-i-link-to-part-of-a-page-hash-->
+		<a href="#java">Java</a>
+		<a href="#cpp">C++</a>
+		<a href="#html">HTML</a>
+		<a href="#unity">C# - Unity3D</a>
+		<a href="#android">Android</a>
+		<a href="#contact">
+			<span class="eng">Contact me!</span>
+			<span class="fin">Laita viestiä!</span>
+		</a>
+	</topics>
+
+	<hr>
+
+<h1 id="java">Java</h1>
+
+	<p>
+
+	<h2><a href="https://github.com/h8672/JavaZydeemi">JavaZydeemi</a></h2>
+
+	<span class="eng">
+	2D OpenGL game.
+	A group work with Antti.
+	Antti made the graphics and shaders as he had used OpenGL before.
+	Tapan kaikki -game copy, which has better game mechanics and shaders.
+	<br>
+	I focused more in the physics and class interfaces.
+	</span>
+
+	<span class="fin">
+	2D OpenGL peli.
+	Tehty ryhmätyönä Antti Mäkelän kanssa.
+	Antti teki grafiikan, kun oli käyttänyt aiemminkin OpenGL:ää.
+	Tapan kaikki -pelin kopio, jossa on paremmat peli mekaniikat ja shaderit.
+	<br>
+	Itse keskityin enemmän fysiikkaan ja luokka rakenteisiin.</span>
+
+	</p>
+
+	<img src="https://github.com/h8672/JavaZydeemi/blob/master/Game/data/tekstuuri.png?raw=true">
+	<img class="rotate ontop" src="https://raw.githubusercontent.com/h8672/JavaZydeemi/master/Game/data/tyyppi.png">
+	<img src="https://github.com/h8672/JavaZydeemi/blob/master/Game/data/map/tile1.png?raw=true">
+	<img class="rotate ontop" src="https://raw.githubusercontent.com/h8672/JavaZydeemi/master/Game/data/tyyppi.png">
+	<img src="https://github.com/h8672/JavaZydeemi/blob/master/Game/data/map/tile4.png?raw=true">
+	<img class="rotate ontop" src="https://raw.githubusercontent.com/h8672/JavaZydeemi/master/Game/data/tyyppi.png">
+
+	<hr>
+
+<h1 id="cpp">C++</h1>
+
+	<p>
+
+	<h2><a href="https://github.com/h8672/Birdnest">Birdnest</a></h2>
+
+	<span class="eng">
+	Partial 3D OpenGL engine made using tutorial in https://learnopengl.com/ 2016 spring.
+	Reads 3D model and text font styles information using libraries.
+	Reads simple shaders which give models a texture and you can use it to give text new colors.
+	Made own camera system that works quite well in 3D space, but I dont remember if I fixed the axel locks caused by euler angles.
+	Took a little too big bite, but learned a lot about C++, OpenGL and class interfaces.
+	Idea was to add enough methods to fly in 3D space with a bird model.
+	</span>
+
+	<span class="fin">
+	Osittainen 3D OpenGL moottori tehty https://learnopengl.com/ tutoriaalin pohjalta.
+	Lukee 3D malli tiedoston ja teksti fontit kirjastoja käyttäen.
+	Lukee yksinkertaisia shadereitä joilla annetaan värit modeleille ja sillä voi määrittää tekstille uudet värit.
+	Tein oman kamera systeemin joka toimi mielestäni hyvin 3D maailmassa, mutte en muista korjasinko siitä akselien lukkiutumisen euler kulmilla.
+	Haukkasin vähän liian ison palan, mutta opin paljon C++, OpenGL ja luokka rakenteita.
+	</span>
+
+	</p>
+
+	<img class="hover-x" src="http://student.labranet.jamk.fi/~H8672/kuvat/3D_opengl.JPG">
+
+	<hr>
+
+<h1 id="html">HTML</h1>
+
+	<p>
+
+	<span class="eng">
+	<a href="http://student.labranet.jamk.fi/~H8672/">Old Home page</a>
+	</span>
+
+	<span class="fin">
+	<a href="http://student.labranet.jamk.fi/~H8672/">Vanha kotisivu</a>
+	</span>
+
+	</p>
+
+	<hr>
+
+	<h1>Angular2</h1>
+
+	<p>
+
+	<h2>Esatime in <a href="https://gitlab.com/jamk-it-tuntikirjaus/esatime">Gitlab</a> and <a href="https://github.com/Jamk-IT-Tuntikirjaus/Jamk-IT-Tuntikirjaus">Github (old port)</a></h2>
+
+	<span class="eng">
+	Web app that might had a chance to replace the current class time management system at school with a more simple and better one.
+	It went to hold for some reason. We used webpack and made documents how to set the server up.
+	Consist of website written in angular2 and Baasbox, backend project that combines authentication and OrientDB under one interface.
+	<br><br>
+	My focus was in the frontend and backend coding. No image at the moment.
+	</span>
+
+	<span class="fin">
+	Nettisivua suunniteltiin opettajille, jotka toivoivat parempaa ja yksinkertaisempaa käyttöliittymää tuntien aikojen kirjaukseen.
+	Nettisivun frontend (käyttäjän käyttöliittymä) tehtiin angular2 webpack pohjalta.
+	Tiedot tallennettiin Baasboxiin, joka on backend projekti joka yhdistää käyttäjän tunnistamisen ja OrientDB yhteen käyttöliittymään.
+	<br><br>
+	Projektissa keskityin käyttöliittymän ja baasboxin koodaukseen. Kuvaa ei ole tällä hetkellä.
+	</span>
+
+	</p>
+
+	<hr>
+
+<h1 id="unity">C# - Unity3D</h1>
+
+	<p>
+
+	<h2><a href="https://github.com/JAMK-GameDev/game-development-project-2017-team-3-5">Fantasia Land</a></h2>
+
+	<span class="eng">
+	Turnbased game in groupwork for a class using Git, Unity3D gameengine and Blender 3D sculpting tool.
+	We honed the story, even though it didn't make in the prototype as the game had many mechanics.
+	In prototype we made most of the base utilities required for the game and you can test it from link below.
+	<br><br>
+	I was a project leader in this project and focused to get the most important mechanics and some story to the prototype in time.
+	</span>
+
+	<span class="fin">
+	Vuoropohjainen peli, joka tehtiin pelintekokurssilla käyttäen Git, Unity3D pelimoottoria ja Blender 3D-mallinnus työkalulla.
+	Sen lisäksi viilattiin tarinaa paremmaksi, mutta sitä ei vielä tullut tähän prototyyppiin, koska se vaati liian monta erilaista peli mekaniikkaa.
+	Prototyypissä teimme suurimman osan tarvittavista toiminnoista ja sen voi testata alla olevasta linkistä.
+	<br><br>
+	Toimin projektin johtajana ja koetin saaha peliin tarvittavat toiminnot ja tarinaa prototyyppiin ajoissa.
+	</span>
+
+	<!--Link to WebGL build-->
+	<br><br>
+	<a href="http://student.labranet.jamk.fi/~H8672/Uutta/pelisuunnittelu/Game/WebGL/">WebGL build</a>
+
+
+	</p>
+
+	<hr>
+
+<h1 id="android">Android</h1>
+
+	<p>
+
+	<h2><a href="https://github.com/Replica94/moveometri">Moveometri</a></h2>
+
+	<span class="eng">
+	A 3 man group project for Mobile Project course.
+	Application utilizes androids location and time and uses Google maps api to provide a trip timer.
+	When you have made trips, by logging in your new trips can be saved in an external database!
+	The server is coded in D language and uses Vibe.d library and it grants it REST API methods.
+	<br><br>
+	I made the timer activity, which includes coding for the times, locations and Google map API for the application.
+	</span>
+
+	<span class="fin">
+	3 hengen projekti Mobile Project kurssia varten.
+	Ohjelma käyttää Androidin omaa location systeemiä ja aikaa. Locationit piirretään Google service Maps APIa käyttäen kartalle.
+	Kun matkoja on tehty, ne voi siirtää ulkoiseen tietokantaan kirjautumisella.
+	Tietokannan toiminnot on koodattu D kielellä ja käyttää Vibe.d kirjastoa saadakseen REST API toiminnot.
+	<br><br>
+	Tein projektin ajastus aktiviteetin, eli koodasin ajan, sijainnin ja Googlen kartan APIn ohjelmaan.
+	</span>
+
+	</p>
+
+	<img class="hover-y" src="https://github.com/Replica94/moveometri/blob/master/Pictures/pic10.png?raw=true">
+	<img class="hover-y" src="https://github.com/Replica94/moveometri/blob/master/Pictures/pic2.png?raw=true">
+	<img class="hover-y" src="https://github.com/Replica94/moveometri/blob/master/Pictures/pic9.png?raw=true">
+
+	<hr>
+
+<h1 id="contact">
+	<span class="eng">Contact me!</span>
+	<span class="fin">Laita viestiä!</span>
+</h1>
+
+	<p>
+
+	<a href="mailto:juhamk91@gmail.com">Gmail</a>
+	<a href="https://github.com/h8672">Github</a>
+	<a href="https://www.linkedin.com/in/juha-matti-kokkonen-a17a9512a/">Linkedin</a>
+	Discord account: Advis#4539<br><br>
+
+	<span class="eng">Here's my <a href="./../Files/CVSuomi.pdf">CV</a> in finnish for now</span>
+	<span class="fin">Tässä on minun <a href="./../Files/CVSuomi.pdf">CV</a></span>
+
+	</p>
+
+</siteback>
+
+</body>
+
+</html>

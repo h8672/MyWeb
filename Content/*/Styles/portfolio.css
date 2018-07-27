@@ -1,0 +1,92 @@
+
+/* Default style changes */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Website background */
+body {
+	text-align: center;
+	background-color: gray;
+	margin-bottom: 40%;
+}
+
+/* Website centering */
+siteback {
+	display: block;
+	width: 60%;
+	min-width: 600px;
+	margin: auto;
+}
+siteback * {
+
+}
+
+/* Default language style */
+.languages {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	margin-left: -10px;
+	padding: 10px 10px;
+	background-color: teal;
+	z-index: 1;
+	border-bottom: 4px solid black;
+}
+.languages * {
+	font-weight: bold;
+	color: black;
+}
+.languages a:hover {
+	color: blue;
+}
+.fin { display: none; }
+
+/* Topics style */
+topics * {
+	display: block;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+topics *:hover {
+	color: blue;
+}
+
+/* Set image styles */
+img {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: auto;
+}
+img.hover:hover {
+	position: absolute;
+	left: 10px;
+	width: 300px;
+	height: 300px;
+}
+img.hover-x:hover {
+	height: auto;
+	max-height: 400px;
+	width: auto;
+	max-width: 20000px;
+}
+img.hover-y:hover {
+	width: auto;
+	max-width: 200px;
+}
+img.ontop {
+	margin-left: -100px;
+	padding: 0;
+}
+/* Thanks Giona! https://stackoverflow.com/questions/16771225/css3-rotate-animation */
+img.rotate {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
